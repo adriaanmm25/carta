@@ -26,10 +26,9 @@
     </div>
     <script>
         const envelope = document.querySelector('.envelope-wrapper');
-        const audio = document.getElementById('audio')
+        const audio = new Audio('https://drive.google.com/file/d/1Ledo8Ugfxw-84nKBnMWh_n_2VuuuCnEG/view?usp=drive_link')
         envelope.addEventListener('click', () => {
             envelope.classList.toggle('flap');
-
             audio.play();
         });
 
